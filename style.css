@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.keyboard{
+    display: grid;
+    grid-template-columns: repeat(11, 50px);
+    grid-template-rows: repeat(3, 50px);
+    margin-top: 100px;
+    grid-gap: 7px;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin-left: 450px;
+}
+
+.rad1{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px red;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.rad2h{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgb(254, 254, 254);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.rad2{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgb(251, 255, 0);
+    background-color: rgb(251, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+.rad3{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px rgb(128, 255, 0);
+    background-color: rgb(128, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+.skrivHer{
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    margin-left: 510px;
+    margin-top: 100px;
+}
